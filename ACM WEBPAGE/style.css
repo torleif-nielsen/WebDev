@@ -1,0 +1,16 @@
+.jumbotron {
+  background-image:url('https://scontent.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/1017001_439220456221808_261617247483881275_n.jpg?oh=04579cb69111cae36a6389793fdfe9c9&oe=5585D269');
+  height: 210px;
+  width: 1300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: auto:
+      height: auto;
+      max-height: 400px;
+      margin: auto;
+  }
