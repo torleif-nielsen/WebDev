@@ -8,13 +8,14 @@
         <link rel="stylesheet" href="./Stylesheets/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-        <script>
+        
+        <script>    
             $(document).ready(function()
             {
                 $('li img').on('click',function()
                 {
                     var src = $(this).attr('src');
-                    var img = '<img src="' + src + '" class="img-responsive img-thumbnail"/>';
+                    var img = '<img src="' + src + '" class="img-responsive"/>';
                     $('#myModal').modal();
                     $('#myModal').on('shown.bs.modal', function()
                     {
