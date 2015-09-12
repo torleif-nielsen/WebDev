@@ -1,0 +1,154 @@
+.jumbotron {
+  height: 400px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a {
+      min-height:250px;
+      min-width:450px;
+      margin: auto;
+      background-color:white;
+      
+  }
+
+body {
+    margin:0px;
+    padding:0;
+    height:100%;
+    text-align:center;
+    background-color: #e8e8e8;
+    background-image: linear-gradient(to bottom, #e8e8e8, #a7a7a7 100%);
+    background-attachment: fixed;
+}
+
+#container {
+    min-height:100%;
+    height:100%;
+    position:relative;
+}
+
+#header {
+    background-color:lightblue;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+
+#about {
+    margin: 25px 0px 25px 0px;
+    padding:10px;
+    padding-bottom:60px;
+}
+
+#footer {
+    background-color: #bfbfbf;
+    clear:both;
+    text-align:center;
+    padding:10px;
+    margin-top:100px;
+    position:bottom;
+    bottom:0;
+    left:0;
+    height:60px;
+    width:auto;
+}
+
+
+.item {
+    width: 450px;
+    height: 250px;
+    margin: auto;
+}
+
+.carousel-caption {
+    max-width: 450px;
+    margin: auto;
+    bottom: -35px;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.carousel-inner {
+    margin-bottom: 50px;
+}
+
+.carousel-indicators li {
+    background-color: darkgrey;
+}
+
+.carousel-indicators .active {
+    background-color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color:#a3a2a2;
+}
+
+.googleCal {
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    top: 50px;
+    border: groove 1px darkgrey;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+#topFrame {
+    position: relative;
+    top: 50px;
+    width:auto;
+}
+
+#portrait {
+    width: 110px;
+    height: 110px;
+}
+
+#boardPictures {
+    align-content: center;
+}
+
+th {
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+}
+
+ul {
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+}
+
+
+
+ul li img {
+    cursor: pointer;
+}
+#lightbox {
+    list-style:none;
+    margin-bottom:25px;
+}
+
+#lightboxFrame {
+    margin: 0px 50px 50px 50px;
+    position: relative;
+    top: 100px;
+}
+
+#picFrame {
+    width: 150px;
+    height: 150px;
+    margin: 25px;
+}
