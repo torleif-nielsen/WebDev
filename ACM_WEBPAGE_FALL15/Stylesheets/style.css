@@ -95,12 +95,8 @@ body {
 .googleCal {
     width: 1000px;
     height: 600px;
-    position: relative;
-    top: 50px;
     border: groove 1px darkgrey;
     border-radius: 10px;
-    margin-top: 25px;
-    margin-bottom: 50px;
 }
 
 #topFrame {

@@ -1,0 +1,62 @@
+/*!
+ * Start Bootstrap - Business Frontpage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. 
+    Change if height of navigation changes. This is how you avoid overlap between the navbar and your first div of content*/
+    background-color: #9be4fa;
+    background-image: linear-gradient(to bottom, #9be4fa, #a7b9b8 100%);
+    background-attachment: fixed;
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+    height: 400px;
+    background: url('../images/meetings/marMeeting.JPG') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+small {
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
+#mission {
+    font-size: 16px;
+}
+
+.googleCal {
+    width: 100%;
+    height: 700px;
+    border: groove 1px darkgrey;
+    border-radius: 10px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+#portrait {
+    width: 110px;
+    height: 110px;
+}
