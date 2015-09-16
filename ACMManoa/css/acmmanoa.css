@@ -60,3 +60,17 @@ footer {
     width: 110px;
     height: 110px;
 }
+
+.table-condensed {
+    width: 100%;
+}
+
+/* override bootstrap 3 class to remove scrollbar from modal backdrop
+   when not necessary */
+.modal {
+  overflow-y: auto;
+}
+/* custom class to override .modal-open */
+.modal-noscrollbar {
+    margin-right: 0 !important;
+}
