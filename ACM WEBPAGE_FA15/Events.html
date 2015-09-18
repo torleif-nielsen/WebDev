@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Association for Computing Machinery at Manoa</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="Association for Computing Machinery at Manoa">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./Stylesheets/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        
+        <script>    
+            $(document).ready(function()
+            {
+                $('li img').on('click',function()
+                {
+                    var src = $(this).attr('src');
+                    var img = '<img src="' + src + '" class="img-responsive"/>';
+                    $('#myModal').modal();
+                    $('#myModal').on('shown.bs.modal', function()
+                    {
+                        $('#myModal .modal-body').html(img);
+                    });
+                    $('#myModal').on('hidden.bs.modal', function()
+                    {
+                        $('#myModal .modal-body').html('');
+                    });
+                });
+            })
+        </script>
+    </head>
+    
+    <body id="test">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html"> The Association of Computing Machinery at Manoa</a></li>
+                        <li><a href="Members.html"> Members </a></li>
+                        <li><a href="Calendar.html"> Calendar </a></li>
+                        <li><a href="Events.html"> Events </a></li>
+                        <li><a href="PlayGrounds.html"> Play Grounds </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    
+    <div class="container-fluid" id="topFrame">
+        <br>
+        <br>
+        Our events are meant to promote professional interaction and peer socializing. 
+        We host meetings every month to keep our members informed in addition to hosting 
+        a variety of events to satisfy our diverse array of members. These events can range
+        from Gaming Nights to Professional Interaction Nights.
+        
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                    </div>
+                </div>
+            </div>
+        </div
+        
+        <br>
+        <br>
+        <br>
+        
+        <h2>
+            These are some pictures of our events & adventures!
+        </h2>
+        
+        <div id="lightboxFrame" class="container-fluid">
+            <ul class="row">
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" id="picFrame" src="./Pictures/Camping/camping1.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Camping/camping2.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Camping/camping3.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Camping/springBrkCmp.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Meetings/febMeeting1.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Meetings/febMeeting2.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Meetings/febMeeting3.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Meetings/febMeeting4.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Meetings/febMeeting5.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Meetings/febMeeting6.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Meetings/febMeeting7.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Meetings/febMeeting8.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Meetings/febMeeting9.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Meetings/febMeeting10.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Meetings/febMeeting11.jpg">
+                    
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Meetings/febMeeting12.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Meetings/febMeeting13.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Meetings/febMeeting14.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Meetings/febMeeting15.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Meetings/febMeeting16.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Meetings/febMeeting17.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Meetings/febMeeting18.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Meetings/janMeeting.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Meetings/marMeeting.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Socials/gamingTournament1.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Socials/gamingTournament2.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Socials/gamingTournament3.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Socials/gamingTournament4.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Socials/gamingTournament5.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Socials/interviewPICS1.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Socials/interviewPICS2.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Socials/interviewPICS3.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Socials/interviewPICS4.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Socials/interviewPICS5.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Socials/interviewPICS6.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Socials/interviewPICS7.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Socials/makapuu1.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Socials/makapuu2.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Socials/makapuu3.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Socials/makapuu4.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Socials/makapuu5.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Socials/makapuu6.jpg">
+                </li>
+                <li id="lightbox" class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <img class="img-responsive img-thumbnail" id="picFrame" src="./Pictures/Socials/tmnIMITATION.jpg">
+            </ul>
+        </div>
+
+        <div id="footer">
+             Questions/Comments? <br> Email <a href="mailto:acmmanoa@hawaii.edu">acmmanoa@hawaii.edu</a> 
+             or Like Us on <a href="https://www.facebook.com/groups/acmmanoa/">Facebook!</a>
+        </div>
+    </div>
+    </body>
+</html>
